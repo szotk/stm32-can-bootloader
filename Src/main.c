@@ -44,9 +44,9 @@
 typedef void (*pFunction)(void);
 
 // Flash configuration
-#define MAIN_PROGRAM_START_ADDRESS              (uint32_t)0x08002000
-#define MAIN_PROGRAM_PAGE_NUMBER                8
-#define NUM_OF_PAGES                            (64 - MAIN_PROGRAM_PAGE_NUMBER)
+#define MAIN_PROGRAM_START_ADDRESS              (uint32_t)0x08000800
+#define MAIN_PROGRAM_PAGE_NUMBER                2
+#define NUM_OF_PAGES                            (32 - MAIN_PROGRAM_PAGE_NUMBER)
 
 // CAN identifiers
 #define DEVICE_CAN_ID                            0x78E
